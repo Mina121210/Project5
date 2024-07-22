@@ -46,8 +46,7 @@ box-sizing: border-box;
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-   
+    align-items: center;   
     padding: 10px 20px;
     color: wheat;
 }
@@ -60,6 +59,7 @@ header {
 }
 
 .menu {
+    
     list-style: none;
     display: flex;
     margin: 0;
@@ -69,11 +69,14 @@ header {
 
 .menu li {
     margin-left: 20px;
+    
+    border-bottom: 2px solid rgb(29, 29, 177);
 }
 
 .menu a {
     text-decoration: none;
     color:white;
+    
 }
 
 
@@ -82,6 +85,7 @@ header {
         display: none;
         flex-direction: column;
         width: 100%;
+        padding-top:10px;
     }
     
     .menu-icon {
@@ -158,10 +162,11 @@ color: white;
 
 .mon{
 
-background-image: url("hero-bg.jpg");
+background-image: url("file:///storage/emulated/0/Android/data/com.teejay.trebedit/files/TrebEdit user files/ejej/hero-bg.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+
 
 
 }
@@ -370,7 +375,7 @@ margin-bottom: 80px;
     text-align: center;
     width: 200px;
     position: relative;
-    left:58px;
+    left:88px;
     padding: 20px;
     border-color: orange;
     border-radius: 30px;
@@ -724,6 +729,7 @@ align-items: center;
     color: white;
     padding-bottom: 10px;
    }
+   
    @media (max-width: 768px){
     .name{
         padding: 0px;
