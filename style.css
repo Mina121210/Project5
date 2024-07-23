@@ -439,22 +439,22 @@ margin-bottom: 80px;
 }
 
 .qq img{
-    width: 160px;
+    width: 100px;
     padding-bottom: 40px;
 }
 .q h1{
-    font-size: 50px;
+    font-size: 15px;
 }
 
 .q p{
     padding-bottom: 20px;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .c{
  
     padding: 30px;
-    width: 30%;
+    width: 50%;
 }
 
 .x:hover{
@@ -690,6 +690,7 @@ margin-bottom: 80px;
 .b{
     text-align: center;
     padding-bottom: 40px;
+    padding-bottom: 100px;
 
 }
 
